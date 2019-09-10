@@ -1,4 +1,4 @@
-cod,regiao,NM_UF,Capital,CD_GCUF,NM_UF_SIGLA
+CO_REGIAO,regiao,NM_UF,Capital,CO_UF,NM_UF_SIGLA
 1,Norte,Amazonas,Manaus,13,AM
 1,Norte,Acre,Rio Branco,12,AC
 1,Norte,Rondônia,Porto Velho,11,RO
