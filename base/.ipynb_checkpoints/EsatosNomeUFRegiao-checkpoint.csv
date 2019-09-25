@@ -1,0 +1,27 @@
+CO_REGIAO,regiao,NM_UF,Capital,CO_UF,NM_UF_SIGLA
+1,Norte,Amazonas,Manaus,13,AM
+1,Norte,Acre,Rio Branco,12,AC
+1,Norte,Rondônia,Porto Velho,11,RO
+1,Norte,Roraima,Boa Vista,14,RR
+1,Norte,Amapá,Macapá,16,AP
+1,Norte,Pará,Belém,15,PA
+1,Norte,Tocantins,Palmas,17,TO
+2,Nordeste,Maranhão,São Luís,21,MA
+2,Nordeste,Piauí,Teresina,22,PI
+2,Nordeste,Rio Grande do Norte,Natal,24,RN
+2,Nordeste,Ceará,Fortaleza,23,CE
+2,Nordeste,Paraíba,João Pessoa,25,PB
+2,Nordeste,Bahia,Salvador,29,BA
+2,Nordeste,Pernambuco,Recife,26,PE
+2,Nordeste,Alagoas,Maceió,27,AL
+2,Nordeste,Sergipe,Aracaju,28,SE
+3,Centro-Oeste,Goiás,Goiânia,52,GO
+3,Centro-Oeste,Mato Grosso,Cuiabá,51,MT
+3,Centro-Oeste,Mato Grosso do Sul,Campo Grande,50,MS
+3,Centro-Oeste,Distrito Federal,Brasília (Sede de Governo),53,DF
+4,Sudeste,Minas Gerais,Belo Horizonte,31,MG
+4,Sudeste,Rio de Janeiro,Rio de Janeiro,33,RJ
+4,Sudeste,São Paulo,São Paulo,35,SP
+5,Sul,Santa Catarina,Florianópolis,42,SC
+5,Sul,Paraná,Curitiba,41,PR
+5,Sul,Rio Grande do Sul,Porto Alegre,43,RS
