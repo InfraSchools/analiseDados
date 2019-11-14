@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pickle
 
-df = pd.read_csv("Base_Completa.csv", sep=';', encoding='utf-8', low_memory=False)
+df = pd.read_csv("../base/Base_Completa.csv", sep=';', encoding='utf-8', low_memory=False)
 
 df = df[df.TAXA_PARTICIPACAO_5EF!=0]
 
