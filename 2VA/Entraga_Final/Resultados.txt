@@ -1,0 +1,96 @@
+
+
+
+MPC
+
+[INFO] ANN...
+
+[[3194  359]
+ [ 634 2977]]
+              precision    recall  f1-score   support
+
+        ruim       0.83      0.90      0.87      3553
+         boa       0.89      0.82      0.86      3611
+
+    accuracy                           0.86      7164
+   macro avg       0.86      0.86      0.86      7164
+weighted avg       0.86      0.86      0.86      7164
+
+
+SVM
+
+[INFO] SVC-linear ...
+
+[[3134  419]
+ [ 621 2990]]
+              precision    recall  f1-score   support
+
+           0       0.83      0.88      0.86      3553
+           1       0.88      0.83      0.85      3611
+
+    accuracy                           0.85      7164
+   macro avg       0.86      0.86      0.85      7164
+weighted avg       0.86      0.85      0.85      7164
+
+
+[INFO] SVC-rbf ...
+
+[[3179  374]
+ [ 470 3141]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88      3553
+           1       0.89      0.87      0.88      3611
+
+    accuracy                           0.88      7164
+   macro avg       0.88      0.88      0.88      7164
+weighted avg       0.88      0.88      0.88      7164
+
+
+[INFO] SVC-sigmoid ...
+
+[[ 604 2949]
+ [ 189 3422]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.17      0.28      3553
+           1       0.54      0.95      0.69      3611
+
+    accuracy                           0.56      7164
+   macro avg       0.65      0.56      0.48      7164
+weighted avg       0.65      0.56      0.48      7164
+
+
+
+
+kernel='poly'
+
+
+nao fuciona
+
+
+from sklearn.svm import SVC
+svclassifier = SVC(kernel='poly', degree=8)
+svclassifier.fit(X_train, y_train)
+
+y_pred = svclassifier.predict(X_test)
+
+from sklearn.metrics import classification_report, confusion_matrix
+print(confusion_matrix(y_test, y_pred))
+print(classification_report(y_test, y_pred))
+
+
+
+
+[INFO] RandomForestClassifier ...
+
+[[3932 2050]
+ [1402 4559]]
+              precision    recall  f1-score   support
+
+           0       0.74      0.66      0.69      5982
+           1       0.69      0.76      0.73      5961
+
+    accuracy                           0.71     11943
+   macro avg       0.71      0.71      0.71     11943
+weighted avg       0.71      0.71      0.71     11943
